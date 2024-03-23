@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "D:\\Cucumber\\feature\\login.feature",glue = "step_defination")
+@CucumberOptions(features = "C:\\Users\\Shaw\\git\\weekend\\Cucumber\\feature\\login.feature",glue = "step_defination", dryRun = false,plugin = {"pretty","html:report/facebook"})
 public class Run {
 
 }
